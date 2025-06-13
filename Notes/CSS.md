@@ -46,3 +46,39 @@ Embed CSS directly within the `<style>` tags in the `<head>` of your HTML docume
     </body>
 </html>
 ```
+
+### 🔸 3. Inline Styles
+Apply CSS directly to individual HTML elements using the `style` attribute. This method is generally discouraged for larger projects as it mixes content and presentation.
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 style="color: blue; text-align: center;">Hello World</h1>
+    <p style="font-size: 16px; margin-left: 20px;">This is a styled paragraph.</p>
+  </body>
+</html>
+```
+
+## 🔹 CSS Syntax
+A CSS rule consists of a selector and a declaration block. The declaration block contains one or more declarations, each including a property and a value.
+
+```css
+selector {
+  property: value;
+  property: value;
+}
+```
+Example:
+```css
+h1 {
+  color: blue; /* Sets the text color to blue */
+  font-size: 24px; /* Sets the font size to 24 pixels */
+}
+
+.my-class {
+  background-color: lightgray;
+  padding: 15px;
+}
+```
+
