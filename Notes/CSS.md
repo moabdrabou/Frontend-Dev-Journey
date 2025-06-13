@@ -22,6 +22,7 @@ This is the most common and recommended method. Link an external `.css` file in 
   <body>
     </body>
 </html>
+```
 
 ### 🔸 2. Internal Stylesheet
 Embed CSS directly within the `<style>` tags in the `<head>` of your HTML document.
@@ -44,3 +45,4 @@ Embed CSS directly within the `<style>` tags in the `<head>` of your HTML docume
   <body>
     </body>
 </html>
+```
