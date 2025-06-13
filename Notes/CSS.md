@@ -22,3 +22,25 @@ This is the most common and recommended method. Link an external `.css` file in 
   <body>
     </body>
 </html>
+
+### 🔸 2. Internal Stylesheet
+Embed CSS directly within the `<style>` tags in the `<head>` of your HTML document.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      h1 {
+        color: navy;
+      }
+    </style>
+    <title>My Page</title>
+  </head>
+  <body>
+    </body>
+</html>
