@@ -118,7 +118,7 @@ Selectors are used to "find" (or select) the HTML elements you want to style.
 
 ## 🔹 Box Model
 ```
-<pre>  +-----------------------------------+
++-----------------------------------+
 |             Margin                |
 |   +---------------------------+   |
 |   |         Border          |   |
@@ -129,7 +129,7 @@ Selectors are used to "find" (or select) the HTML elements you want to style.
 |   |   |   +-----------+   |   |   |
 |   |   +-------------------+   |   |
 |   +---------------------------+   |
-+-----------------------------------+  </pre>
++-----------------------------------+ 
 ```
 
 **Properties related to the Box Model:**
